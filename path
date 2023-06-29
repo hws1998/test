@@ -4,7 +4,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     #这个链接是百度,百度比较特殊
-    url="https://signd.bd.duoku.com/service/cloudapk_sign_online/66000/66924/66924_20221111095321_60031_signed.apk"
+    url="https://gameapkwrdl.vivo.com.cn/appstore/developer/apk/20230614/2023061411523005cmp.apk"
     # 使用curl命令下载apk文件
     curl -o blhx.apk  $url
     fi
