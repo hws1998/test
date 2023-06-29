@@ -17,13 +17,13 @@ jobs:
           distribution: "adopt"
 
       - name: chmod Build
-        run: chmod +x patch_dangle.sh
+        run: chmod +x patch_vivo.sh
       - name: download chmod
-        run: chmod +x download.sh
+        run: chmod +x vivo.sh
       - name: download
         run:  ./download.sh
       - name: Build apk
-        run:  ./patch_dangle.sh
+        run:  ./patch_vivo.sh
       - name: Zipalign chmod
         run: chmod +x zipalign_sign.sh
       - name: Zipalign and Sign Android release
