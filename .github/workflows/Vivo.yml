@@ -19,7 +19,7 @@ jobs:
       - name: chmod Build
         run: chmod +x patch_vivo.sh
       - name: download chmod
-        run: chmod +x vivo.sh
+        run: chmod +x download.sh
       - name: download
         run:  ./download.sh
       - name: Build apk
