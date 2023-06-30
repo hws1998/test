@@ -6,7 +6,7 @@ download_azurlane () {
     #这个链接是百度,百度比较特殊
     url="https://gameapkwrdl.vivo.com.cn/appstore/developer/apk/20230614/2023061411523005cmp.apk"
     # 使用curl命令下载apk文件
-    curl -o blhx.apk  $url
+    axel -n 16 -k -o blhx.apk $url
     fi
 }
 
